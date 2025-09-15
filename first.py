@@ -30,3 +30,12 @@ A="Hello"
 
 print(A)
 print(a)
+
+a= "milan"
+b= "hello"
+
+print("My name is", a)
+
+print(f"My name is {b}")
+
+print("My name is "+ a)
