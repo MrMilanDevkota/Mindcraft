@@ -16,3 +16,17 @@ def addition_list(x):
 
 my_list= [5,6,4,3,2]
 addition_list(my_list)
+
+
+
+def addition1(num1, num2):
+    total= num1+num2
+    return total 
+
+x= addition(10,20)
+print(x)  # None 
+
+
+# function le return garni practice ramro huncha 
+ 
+

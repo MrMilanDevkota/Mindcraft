@@ -36,10 +36,10 @@ print(car.items())
 car.update({'price':200000, 'location':'Pokhara'})
 print(car)
 
-car["model"]= 2020  # individual values lai change garauna ko lagi 
+car["model"]=  2020  # individual values lai change garauna ko lagi 
 print(car)
 
-brain={}
+brain={}  # empty dictionary
 
 brain.update({"milan":"bro"})
 print(brain)

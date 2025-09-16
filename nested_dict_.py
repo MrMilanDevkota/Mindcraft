@@ -26,4 +26,8 @@ print(myfamily["child1"])
 myfamily["child3"]["age"]=21
 print(myfamily["child3"])
 
+# deleting an item from nested dictionary
+myfamily["child2"].pop("year")
+print(myfamily["child2"])
+
 

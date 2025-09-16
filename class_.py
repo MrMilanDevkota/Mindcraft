@@ -26,5 +26,7 @@ print(p1.name)
 print(p1.age)
 print(p1.country)
 
-print(p2.name)
+print(p2.name)  
+print(p2.age)
+print(p2.country)
 

@@ -23,4 +23,3 @@ p3.printfunc()
 del p3.name
 del p3
 
-p3.printfunc()

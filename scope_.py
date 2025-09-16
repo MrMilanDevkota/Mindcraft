@@ -16,11 +16,40 @@
 
 # myfunc()
 
-x = 300
+# x = 300  
 
-def myfunc():
-  print(x)
+# def myfunc():
+#   print(x)
 
-myfunc()
+# myfunc()
 
-print(x)
+# print(x)
+
+# def myfunc():
+#   global x
+#   x = 300
+
+# myfunc()
+
+# print(x)
+
+# x = 300
+
+# def myfunc():
+#   global x
+#   x = 200
+
+# myfunc()
+
+# print(x)
+
+def myfunc1():
+  x = "Jane"
+
+  def myfunc2():
+    nonlocal x
+    x = "hello"
+  myfunc2()
+  return x
+
+print(myfunc1())
